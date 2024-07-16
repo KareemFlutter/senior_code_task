@@ -18,7 +18,7 @@ class CustomRowText extends StatelessWidget {
         ),
         const Flexible(
           child: CustomAppText(
-            text: "See All",
+            text: "See all",
             textColor: AppColor.kprimaryColor,
             fontWeight: FontWeight.w500,
             fontSize: 18,
