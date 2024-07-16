@@ -42,6 +42,7 @@ class CustomListViewBody extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(text),
+                    const SizedBox(width: 50),
                     const Icon(
                       Icons.favorite_outline,
                       color: AppColor.kprimaryColor,
