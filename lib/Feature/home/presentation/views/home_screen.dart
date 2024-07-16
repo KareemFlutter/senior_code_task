@@ -71,6 +71,7 @@ class HomeScreen extends StatelessWidget {
                     ),
                     const SizedBox(height: 16),
                     const CustomRowText(text: "Upcoming Promotion"),
+                    const SizedBox(height: 16),
                     SizedBox(
                       height: MediaQuery.sizeOf(context).height * 0.1,
                       child: ListView.separated(
@@ -88,6 +89,7 @@ class HomeScreen extends StatelessWidget {
                     ),
                     const SizedBox(height: 16),
                     const CustomRowText(text: "New in Bags & Watchs"),
+                    const SizedBox(height: 16),
                     SizedBox(
                       height: MediaQuery.sizeOf(context).height * 0.18,
                       child: ListView.separated(
@@ -107,6 +109,7 @@ class HomeScreen extends StatelessWidget {
                     ),
                     const SizedBox(height: 16),
                     const CustomRowText(text: "New in Crochet & Clothes"),
+                    const SizedBox(height: 16),
                     SizedBox(
                       height: MediaQuery.sizeOf(context).height * 0.18,
                       child: ListView.separated(
@@ -126,6 +129,7 @@ class HomeScreen extends StatelessWidget {
                     ),
                     const SizedBox(height: 16),
                     const CustomRowText(text: "New in Antiqes & Ceramic"),
+                    const SizedBox(height: 16),
                     SizedBox(
                       height: MediaQuery.sizeOf(context).height * 0.18,
                       child: ListView.separated(
@@ -145,6 +149,7 @@ class HomeScreen extends StatelessWidget {
                     ),
                     const SizedBox(height: 16),
                     const CustomRowText(text: "New in Wedding & Scoial Event"),
+                    const SizedBox(height: 16),
                     SizedBox(
                       height: MediaQuery.sizeOf(context).height * 0.18,
                       child: ListView.separated(
@@ -164,6 +169,7 @@ class HomeScreen extends StatelessWidget {
                     ),
                     const SizedBox(height: 16),
                     const CustomRowText(text: "Software Service"),
+                    const SizedBox(height: 16),
                     SizedBox(
                       height: MediaQuery.sizeOf(context).height * 0.18,
                       child: ListView.separated(

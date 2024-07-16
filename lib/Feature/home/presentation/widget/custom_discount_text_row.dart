@@ -16,6 +16,7 @@ class CustomDiscountTextRow extends StatelessWidget {
         Row(
           children: [
             CustomAppText(text: "Discount ends in "),
+            SizedBox(width: 4),
             Row(
               children: [
                 CustomContainerDate(text: "02"),

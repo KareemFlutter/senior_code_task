@@ -53,7 +53,7 @@ class CustomListViewBody extends StatelessWidget {
                   price,
                   style: const TextStyle(
                     color: AppColor.kprimaryColor,
-                    fontSize: 18,
+                    fontSize: 16,
                   ),
                 ),
               ],
