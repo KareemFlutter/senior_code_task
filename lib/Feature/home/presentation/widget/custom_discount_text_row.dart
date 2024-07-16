@@ -35,7 +35,7 @@ class CustomDiscountTextRow extends StatelessWidget {
           "See All ",
           style: TextStyle(
             color: AppColor.kprimaryColor,
-            fontSize: 20,
+            fontSize: 18,
           ),
         )
       ],

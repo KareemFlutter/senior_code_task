@@ -4,16 +4,24 @@ import '../utils/app_color.dart';
 
 class CustomAppText extends StatelessWidget {
   final String text;
-  const CustomAppText({super.key, required this.text});
+  final Color? textColor;
+  final double? fontSize;
+  final FontWeight? fontWeight;
+  const CustomAppText(
+      {super.key,
+      required this.text,
+      this.textColor,
+      this.fontSize,
+      this.fontWeight});
 
   @override
   Widget build(BuildContext context) {
     return Text(
       text,
-      style: const TextStyle(
-        color: AppColor.black,
-        fontSize: 24,
-        fontWeight: FontWeight.bold,
+      style: TextStyle(
+        color: textColor ?? AppColor.black,
+        fontSize: fontSize ?? 20,
+        fontWeight: fontWeight ?? FontWeight.bold,
       ),
     );
   }

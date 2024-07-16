@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'package:senior_code_task/Feature/home/data/models/featured_model.dart';
 import 'package:senior_code_task/Feature/home/data/models/new_bags_model.dart';
 import 'package:senior_code_task/Feature/home/data/models/new_clothes_moddel.dart';
@@ -10,12 +9,11 @@ import 'package:senior_code_task/Feature/home/presentation/widget/custom_text_fr
 import 'package:senior_code_task/core/utils/app_color.dart';
 import 'package:senior_code_task/core/utils/app_images.dart';
 import 'package:senior_code_task/core/widget/custom_list_view_body.dart';
-
-import '../../../../core/widget/custom_app_text.dart';
 import '../../data/models/new_antiqes_model.dart';
 import '../../data/models/new_wedding_model.dart';
 import '../../data/models/software_service_model.dart';
 import '../widget/custom_discount_text_row.dart';
+import '../widget/custom_row_text.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -72,7 +70,7 @@ class HomeScreen extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(height: 16),
-                    const CustomAppText(text: "Upcoming Promotion"),
+                    const CustomRowText(text: "Upcoming Promotion"),
                     SizedBox(
                       height: MediaQuery.sizeOf(context).height * 0.1,
                       child: ListView.separated(
@@ -89,7 +87,7 @@ class HomeScreen extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(height: 16),
-                    const CustomAppText(text: "New in Bags & Watchs"),
+                    const CustomRowText(text: "New in Bags & Watchs"),
                     SizedBox(
                       height: MediaQuery.sizeOf(context).height * 0.18,
                       child: ListView.separated(
@@ -108,7 +106,7 @@ class HomeScreen extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(height: 16),
-                    const CustomAppText(text: "New in Crochet & Clothes"),
+                    const CustomRowText(text: "New in Crochet & Clothes"),
                     SizedBox(
                       height: MediaQuery.sizeOf(context).height * 0.18,
                       child: ListView.separated(
@@ -127,7 +125,7 @@ class HomeScreen extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(height: 16),
-                    const CustomAppText(text: "New in Antiqes & Ceramic"),
+                    const CustomRowText(text: "New in Antiqes & Ceramic"),
                     SizedBox(
                       height: MediaQuery.sizeOf(context).height * 0.18,
                       child: ListView.separated(
@@ -146,7 +144,7 @@ class HomeScreen extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(height: 16),
-                    const CustomAppText(text: "New in Wedding & Scoial Event"),
+                    const CustomRowText(text: "New in Wedding & Scoial Event"),
                     SizedBox(
                       height: MediaQuery.sizeOf(context).height * 0.18,
                       child: ListView.separated(
@@ -165,7 +163,7 @@ class HomeScreen extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(height: 16),
-                    const CustomAppText(text: "Software Services"),
+                    const CustomRowText(text: "Software Service"),
                     SizedBox(
                       height: MediaQuery.sizeOf(context).height * 0.18,
                       child: ListView.separated(
