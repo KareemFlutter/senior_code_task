@@ -31,13 +31,12 @@ class CustomDiscountTextRow extends StatelessWidget {
             ),
           ],
         ),
-        Text(
-          "See All ",
-          style: TextStyle(
-            color: AppColor.kprimaryColor,
-            fontSize: 18,
-          ),
-        )
+        CustomAppText(
+          text: "See All",
+          textColor: AppColor.kprimaryColor,
+          fontWeight: FontWeight.w500,
+          fontSize: 18,
+        ),
       ],
     );
   }
